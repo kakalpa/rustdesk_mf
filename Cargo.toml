@@ -1,11 +1,11 @@
 [package]
-name = "Mainframe Remote Desk"
+name = "Mainframe_Remote_Desk"
 version = "1.2.3"
 authors = ["Kalpa Prabashwera <serverroom@sumathi.com>"]
 edition = "2021"
 build= "build.rs"
 description = "Have a issue Give us the ID"
-default-run = "Mainframe Remote Desk"
+default-run = "Mainframe_Remote_Desk"
 
 [lib]
 name = "librustdesk"
