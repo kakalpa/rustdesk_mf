@@ -1,11 +1,11 @@
 [package]
-name = "Mainframe_Remote_Desk"
+name = "mainframe_remote_desk"
 version = "1.2.3"
 authors = ["Kalpa Prabashwera <serverroom@sumathi.com>"]
 edition = "2021"
 build= "build.rs"
 description = "Have a issue Give us the ID"
-default-run = "Mainframe_Remote_Desk"
+default-run = "mainframe_remote_desk"
 
 [lib]
 name = "librustdesk"
@@ -138,7 +138,7 @@ members = ["libs/scrap", "libs/hbb_common", "libs/enigo", "libs/clipboard", "lib
 exclude = ["vdi/host", "examples/custom_plugin"]
 
 [package.metadata.winres]
-LegalCopyright = "Copyright © 2023 Mainframe Privet Limited"
+LegalCopyright = "Copyright © 2023 Mainframe PVT LTD"
 # this FileDescription overrides package.description
 FileDescription = "MF Remote Desk"
 
